@@ -1,0 +1,45 @@
+---
+name: Coverage
+field_name_base_url: http://hl7.org/fhir/r4/coverage-definitions.html#Coverage
+fields:
+  - name: class.type
+    required: 'Yes'
+    cardinality: 1..1
+    type: CodeableConcept
+    action: read
+    description: Type of class such as 'group' or 'plan'.
+    binding:
+      description: Coverage Class Codes.
+      terminology:
+      - display: Type
+        system: http://hl7.org/fhir/ValueSet/coverage-class
+        info_link: http://hl7.org/fhir/R4/valueset-coverage-class.html
+
+  - name: relationship
+    required: 'No'
+    cardinality: 0..1
+    type: CodeableConcept
+    description: Indicates the beneficiary relationship to the subscriber.
+    example: |
+      {
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/subscriber-relationship",
+                "code": "child"
+              }
+            ]
+          }
+        ]
+      }
+    binding:
+      description: Indicates the beneficiary relationship to the subscriber.
+      terminology:
+      - display: Coverage Relationship
+        system: http://hl7.org/fhir/coverage-relationship
+        info_link: http://hl7.org/fhir/R4/valueset-subscriber-relationship.html
+      - display: Millennium Coverage Relationship
+        system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/40
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-40-coverage-relationship
+
