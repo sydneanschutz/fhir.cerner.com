@@ -17,5 +17,33 @@ operations:
       }
     note: >
       <ul>
-        <li>Only "arrived", "checked-in", and "cancelled" are supported</li>
+        <li>Only "arrived", "checked-in", "cancelled", and "booked" are supported</li>
       </ul>
+
+  - name: replace-slot
+    path: /slot
+    operation: add
+    type: Reference (Slot)
+    cardinality: 0..1
+    description: The slot to book an appointment.
+    example: |
+      {
+        "op": "add",
+        "path": "/slot",
+        "value": "Slot/21265426-633867-6828001-60"
+      }
+    note: Slot is required if the status is `booked`
+
+  - name: replace-comment
+    path: /comment
+    operation: replace or add
+    type: string
+    cardinality: 0..1
+    description: Additional text to aid in facilitating a booked appointment.
+    example: |
+      {
+        "op": "replace",
+        "path": "/comment",
+        "value": "Further explain MRI results"
+      }
+    note: Comment is only supported if status is `booked`.

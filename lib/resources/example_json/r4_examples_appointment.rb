@@ -124,7 +124,7 @@ module Cerner
       ]
     }
 
-    R4_APPOINTMENT_PATCH ||= [
+    R4_APPOINTMENT_PATCH_CANCELLED ||= [
       {
         "op": "replace",
         "path": "status",
@@ -132,7 +132,25 @@ module Cerner
       }
     ]
 
-    R4_APPOINTMENT_CREATE ||= [
+    R4_APPOINTMENT_PATCH_BOOKED ||= [
+      {
+        "op": "replace",
+        "path": "status",
+        "value":  "booked"
+      },
+      {
+        "op": "add",
+        "path": "/slot",
+        "value": "Slot/21265426-633867-6828001-60"
+      },
+      {
+        "op": "replace",
+        "path": "/comment",
+        "value": "Further explain MRI results"
+      },
+    ]
+
+    R4_APPOINTMENT_CREATE_BOOKED ||= [
       {
         "resourceType": "Appointment",
         "status": "booked",
@@ -148,6 +166,35 @@ module Cerner
               "display": "Smart, Barney R"
             },
             "status": "accepted"
+          }
+        ]
+      }
+    ]
+
+    R4_APPOINTMENT_CREATE_PROPOSED ||= [
+      {
+        "resourceType": "Appointment",
+        "status": "proposed",
+        "requestedPeriod": [
+          {
+            "start": "2019-06-23T07:00:00Z",
+            "end": "2019-07-23T07:00:00Z"
+          }
+        ],
+        "serviceType": "http://snomed.info/sct|394581000",
+        "participant": [
+          {
+            "actor": {
+              "reference": "Patient/4704007",
+              "display": "Smart, Barney R"
+            },
+            "status": "needs-action"
+          },
+          {
+            "actor": {
+              "reference": "Location/4704007"
+            },
+            "status": "needs-action"
           }
         ]
       }

@@ -26,6 +26,8 @@ When updating an appointment, the resource provides the ability to change the [A
 * From Booked to Arrived, Checked-In, or Cancelled
 * From Arrived to Checked-In, or Cancelled
 * From Checked-In to Cancelled
+* From Proposed to Booked
+* From Proposed to Cancelled
 
 The following fields are returned if valued:
 
@@ -180,9 +182,13 @@ _Implementation Notes_
 
     PATCH https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/4627745
 
-#### Body
+#### Example Body For Cancelled
 
-<%= json(:r4_appointment_patch) %>
+<%= json(:r4_appointment_patch_cancelled) %>
+
+#### Example Body For Booked
+
+<%= json(:r4_appointment_patch_booked) %>
 
 #### Response
 
@@ -238,9 +244,12 @@ Create a new Appointment.
 
     POST https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment
 
-#### Body
+#### Example Body For Booked
 
-  <%= json(:r4_appointment_create) %>
+  <%= json(:r4_appointment_create_booked) %>
+
+### Example Body For Proposed
+  <%= json(:r4_appointment_create_proposed) %>
 
 #### Response
 

@@ -16,10 +16,10 @@ fields:
   url: http://hl7.org/fhir/r4/json.html#resources
 
 - name: slot
-  required: 'Yes'
-  cardinality: 1..1
+  required: 'No'
+  cardinality: 0..1
   type: Reference (Slot)
-  description: The availability to which the appointment is booked.
+  description: The availability Slot for which to create the booked Appointment
   action: create
   example: |
     {
@@ -29,7 +29,57 @@ fields:
         }
       ]
     }
-  note: At most one slot can be populated.
+  note: At most one slot can be populated. Slot is required if appointment.status is `booked`.
+
+- name: requestedPeriod
+  required: 'No'
+  cardinality: 0..*
+  type: Period
+  description: The requested period for the proposed appointment.
+  note: At most one requestedPeriod is required when appointment.status is `proposed`.
+  action: create
+  example: |
+    {
+      "requestedPeriod": [
+        {
+          "start": "2019-06-23T07:00:00Z",
+          "end": "2019-07-23T07:00:00Z"
+        }
+      ]
+    }
+  children:
+
+  - name: start
+    required: 'Yes'
+    cardinality: 1..1
+    type: dateTime
+    description: The start time for the requested period of the proposed appointment.
+    note: Must have a lower value than requestedPeriod.end.
+    example: |
+      {
+        "start": "2019-06-23T07:00:00Z"
+      }
+  - name: end
+    required: 'Yes'
+    cardinality: 1..1
+    type: dateTime
+    description: The end time for the requested period of the proposed appointment.
+    note: Must have a higher value than requestedPeriod.start.
+    example: |
+      {
+        "end": "2019-07-23T07:00:00Z"
+      }
+
+- name: serviceType
+  required: 'No'
+  cardinality: 0..1
+  type: CodeableConcept
+  description: The service to be performed for the proposed appointment.
+  note: This is required when appointment.status is `proposed`.
+  example: |
+    {
+      "serviceType" : "http://snomed.info/sct|394581000"
+    }
 
 - name: status
   required: 'Yes'
@@ -41,14 +91,14 @@ fields:
     {
       "status": "booked"
     }
-  note: When creating a new appointment, the status must be `booked`.
+  note: When creating a new appointment, the status must be `booked` or `proposed`.
 
 - name: participant
   required: 'Yes'
-  cardinality: 1..1
+  cardinality: 1..*
   type: BackboneElement
-  description: Participants involved in appointment.
-  note: At most one participant can be populated, and participant.type is an unsupported field.
+  description: Participants involved in an appointment.
+  note: At most one Patient participant can be populated if appointment.status is `booked`. At most one Patient participant is required and at least one Location participant is required if appointment.status is `proposed`. Participant.type is an unsupported field.
   action: create
   example: |
     {
@@ -67,9 +117,9 @@ fields:
   - name: actor
     required: 'Yes'
     cardinality: 1..1
-    type: Reference (Patient)
-    description: A person that is participating in the appointment.
-    note: The reference must be a Patient participant and display is not a required field.
+    type: Reference (Patient|Location)
+    description: A person or location that is participating in the appointment.
+    note: The reference must be a Patient participant if appointment.status is `booked`, and display is not a required field.
     example: |
       {
         "actor": {
@@ -82,8 +132,12 @@ fields:
     required: 'Yes'
     cardinality: 1..1
     type: code
-    description: Participation status of the Patient.
-    note: When creating a new appointment, this value must be `accepted`.
+    description: Participation status of the Patient or Location.
+    note:
+      <ul>
+        <li>When appointment.status is `booked` the status must be "accepted" for all participants.</li>
+        <li>When appointment.status is `proposed` the status must be "needs-action" for all participants</li>
+      </ul>
     example: |
       {
         "status": "accepted"
