@@ -74,6 +74,83 @@ module Cerner
             }
         ]
     }
+      R4_COVERAGE_BY_ENCOUNTER_BUNDLE ||= {
+          "resourceType": "Bundle",
+          "id": "58ec8fbb-d7dc-44c0-ba48-8769011bd89f",
+          "type": "searchset",
+          "total": 1,
+          "link": [
+              {
+                  "relation": "self",
+                  "url": "http://localhost:3000/r4/2c400054-42d8-4e74-87b7-80b5bd5fde9f/Coverage?encounter=37664919"
+              }
+          ],
+          "entry": [
+              {
+                  "fullUrl": "http://localhost:3000/r4/2c400054-42d8-4e74-87b7-80b5bd5fde9f/Coverage/37664919-43052850",
+                  "resource": {
+                      "resourceType": "Coverage",
+                      "id": "37664919-43052850",
+                      "text": {
+                          "status": "generated",
+                          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Coverage</b></p><p><b>Status</b>: active</p><p><b>Subscriber</b>: Kelly, Jared</p><p><b>Beneficiary</b>: Strange Ph.D, Steven Vincent</p><p><b>Dependent Number</b>: 787373</p><p><b>Coverage Start Date</b>: Oct 12, 1997  3:33 A.M. CDT</p><p><b>Coverage End Date</b>: Oct 12, 2021  3:33 A.M. CDT</p><p><b>Payor</b>: Miscellaneous Insurance Company</p><p><b>Class</b>: plan: Value: 975842 Name: SWTestComm, group: Value: 12344321 Name: Healthe</p></div>"
+                      },
+                      "status": "active",
+                      "subscriber": {
+                          "reference": "Patient/129055900",
+                          "display": "Kelly, Jared"
+                      },
+                      "subscriberId": "88339922",
+                      "relationship": {
+                          "text": "Daughter"
+                      },
+                      "beneficiary": {
+                          "reference": "Patient/129055865",
+                          "display": "Strange Ph.D, Steven Vincent"
+                      },
+                      "dependent": "787373",
+                      "period": {
+                          "start": "1997-10-12T08:33:00.000Z",
+                          "end": "2021-10-12T08:33:00.000Z"
+                      },
+                      "payor": [
+                          {
+                              "reference": "Organization/589743",
+                              "display": "Miscellaneous Insurance Company"
+                          }
+                      ],
+                      "class": [
+                          {
+                              "type": {
+                                  "coding": [
+                                      {
+                                          "system": "http://hl7.org/fhir/ValueSet/coverage-class",
+                                          "code": "plan"
+                                      }
+                                  ],
+                                  "text": "plan"
+                              },
+                              "value": "975842",
+                              "name": "SWTestComm"
+                          },
+                          {
+                              "type": {
+                                  "coding": [
+                                      {
+                                          "system": "http://hl7.org/fhir/ValueSet/coverage-class",
+                                          "code": "group"
+                                      }
+                                  ],
+                                  "text": "group"
+                              },
+                              "value": "12344321",
+                              "name": "Healthe"
+                          }
+                      ]
+                  }
+              }
+          ]
+      }
     end
   end
   

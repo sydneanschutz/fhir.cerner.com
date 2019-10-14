@@ -46,6 +46,7 @@ Search for Coverages that meet supplied query parameters:
  Name       | Required?                      | Type          | Description
 ------------|--------------------------------|---------------|-------------------------------------------------------------------------------------------------------
  `patient`  | Yes    | [`reference`] | The patient present at the coverage. Example: `12345`
+ `Encounter`| See notes                      | [`reference`] | The patient present at the coverage. Example: `12345`
 
 ### Headers
 
@@ -61,6 +62,16 @@ Search for Coverages that meet supplied query parameters:
 
 <%= headers status: 200 %>
 <%= json(:r4_coverage_bundle) %>
+
+#### Request
+
+    GET https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Coverage?encounter=123445
+
+#### Response
+
+<%= headers status: 200 %>
+<%= json(:r4_coverage_by_encounter_bundle) %>
+
 
 ### Errors
 
