@@ -83,7 +83,7 @@ Notes:
 
 ### Headers
 
- <%= headers %>
+ <%= headers fhir_json: true %>
 
 ### Example
 
@@ -116,7 +116,7 @@ _Implementation Notes_
 
 ### Headers
 
-<%= headers %>
+<%= headers fhir_json: true %>
 
 ### Example
 
@@ -168,13 +168,13 @@ _Implementation Notes_
 
 ### Headers
 
-<%= headers head: {Authorization: '&lt;OAuth2 Bearer Token>', Accept: 'application/json+fhir', 'Content-Type': 'application/json+fhir'} %>
+<%= headers head: {Authorization: '&lt;OAuth2 Bearer Token>', Accept: 'application/fhir+json', 'Content-Type': 'application/fhir+json'} %>
 
 ### Body Fields
 
 Notes:
 
-* Birth Sex may be recorded as an extension.
+* Birth Sex, Ethnicity, and Race may be recorded as extensions.
 
 <%= definition_table(:patient, :create, :r4) %>
 
@@ -185,6 +185,8 @@ Notes:
     POST https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Patient
 
 #### Body
+
+<%= json(:r4_patient_create) %>
 
 #### Response
 

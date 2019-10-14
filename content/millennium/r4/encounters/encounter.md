@@ -18,6 +18,7 @@ The following fields are returned if valued:
 * [Status](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.status){:target="_blank"}
 * [Class](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.class){:target="_blank"}
 * [Type](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.type){:target="_blank"}
+* [Service Type](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.serviceType){:target="_blank"}
 * [Priority](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.priority){:target="_blank"}
 * [Subject](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.subject){:target="_blank"}
 * [Participant:](https://hl7.org/fhir/r4/encounter-definitions.html#Encounter.participant){:target="_blank"}
@@ -62,12 +63,13 @@ _Implementation Notes_
 
 ### Parameters
 
- Name       | Required?                      | Type          | Description
-------------|--------------------------------|---------------|-------------------------------------------------------------------------------------------------------
- `_id`      | This or `patient` or `subject` | [`token`]     | The logical resource id associated with the Encounter. Example: `7891`
- `patient`  | This or `subject` or `_id`     | [`reference`] | The patient present at the encounter. Example: `12345`
- `subject`  | This or `patient` or `_id`     | [`reference`] | The patient present at the encounter. Example: `subject=Patient/1316024` or `subject:Patient=1316024`
- [`_count`] | No                             | [`number`]    | The maximum number of results to return.
+ Name       | Required?                                   | Type          | Description
+------------|---------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------
+ `_id`      | This or `patient` or `subject` or `account` | [`token`]     | The logical resource id associated with the Encounter. Example: `7891`
+ `patient`  | This or `subject` or `account` or `_id`     | [`reference`] | The patient present at the encounter. Example: `12345`
+ `subject`  | This or `patient` or `account` or `_id`     | [`reference`] | The patient present at the encounter. Example: `subject=Patient/1316024` or `subject:Patient=1316024`
+ `account`  | This or `patient` or `subject` or `_id`     | [`reference`] | The account associated with the encounters. Example: `F703726`
+ [`_count`] | No                                          | [`number`]    | The maximum number of results to return.
 
 ### Headers
 
@@ -156,7 +158,7 @@ Create an individual Encounter.
 <pre class="terminal">
 Cache-Control: no-cache
 Content-Length: 0
-Content-Type: application/json+fhir
+Content-Type: application/fhir+json
 Date: Wed, 27 Mar 2019 15:59:33 GMT
 Etag: W/"0"
 Last-Modified: Wed, 27 Mar 2019 15:59:30 GMT
@@ -193,8 +195,6 @@ _Implementation Notes_
 
 <%= headers head: {Authorization: '&lt;OAuth2 Bearer Token>', 'Accept': 'application/fhir+json',
                    'Content-Type': 'application/json-patch+json', 'If-Match': 'W/"&lt;Current version of the Encounter resource>"'} %>
-
-
 
 ### Patch Operations
 

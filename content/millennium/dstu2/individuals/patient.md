@@ -38,6 +38,7 @@ The following fields are returned if valued:
 * [Argonaut Ethnicity]
 * [Argonaut Patient Birth Sex]
 * [Argonaut Race]
+* [Rendered Value]
 
 ## Search
 
@@ -76,6 +77,7 @@ Notes:
 * Either the `_id`, or a combination of `identifier` , `birthdate`, `name`, `given`, `family`, `address-postalcode`, `phone`, or `email` parameters must be provided.
 * The `gender` parameter may only be provided if at least one of `identifier` , `birthdate`, `name`, `given`, `family`, `address-postalcode`, `phone`, or `email` parameters is provided.
 * The `name`, `family`, and `given` parameters support the ':exact' modifier and will search for current names only.
+* The `address-postalcode` parameter supports the `:exact` modifer.
 * The `identifier`, `name`, `family`, `given`, `phone`, `email`, `address-postalcode`, or `gender` parameters may be provided exactly once and may have only a single value.
 * The `birthdate` parameter may be provided twice to indicate a date range, but must contain the inclusive prefixes 'le' and 'ge'
 * The `birthdate` parameter may be provided once with the following prefixes: 'ge', 'le', 'gt', 'lt', 'eq'
@@ -228,6 +230,7 @@ The common [errors] and [OperationOutcomes] may be returned.
 [Argonaut Race]: http://build.fhir.org/ig/Healthedata1/Argo-DSTU2/StructureDefinition-argo-race.html
 [Argonaut Ethnicity]: http://build.fhir.org/ig/Healthedata1/Argo-DSTU2/StructureDefinition-argo-ethnicity.html
 [Argonaut Patient Birth Sex]: http://build.fhir.org/ig/Healthedata1/Argo-DSTU2/StructureDefinition-argo-birthsex.html
+[Rendered Value]: http://hl7.org/fhir/extension-rendered-value.html
 [`token`]: http://hl7.org/fhir/DSTU2/search.html#token
 [`date`]: http://hl7.org/fhir/DSTU2/search.html#date
 [`string`]: http://hl7.org/fhir/DSTU2/search.html#string

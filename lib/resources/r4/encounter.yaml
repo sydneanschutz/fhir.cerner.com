@@ -82,7 +82,7 @@ fields:
         info_link: http://hl7.org/fhir/r4/valueset-identifier-type.html
       - display: Millennium Encounter AliasType
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/319
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-319-encounter-alias-type
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-319-encounter-alias-type
 
   - name: system
     required: 'Yes'
@@ -128,7 +128,7 @@ fields:
   action: create
   example: |
     {
-      "status": "inpatient"
+      "class": "inpatient"
     }
   note: Direct writing of class is not supported. This field will be inferred on a write.
 
@@ -168,7 +168,19 @@ fields:
     terminology:
     - display: Millennium Encounter Visit Type
       system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/71
-      info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-71-visit-type
+      info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-71-visit-type
+
+- name: serviceType
+  action: read
+  binding:
+    description: Broad categorization of the service that is to be provided.
+    terminology:
+    - display: SNOMED CT
+      system: http://snomed.info/sct
+      info_link: http://hl7.org/fhir/r4/snomedct.html
+    - display: Millennium Encounter Hospital Service
+      system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/34
+      info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-34-hospital-service
 
 - name: priority
   required: 'No'
@@ -209,7 +221,7 @@ fields:
       info_link: http://hl7.org/fhir/v3/ActPriority/vs.html
     - display: Millennium Encounter Admit Type
       system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/3
-      info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-3-encounter-admission-type
+      info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-3-encounter-admission-type
 
 - name: subject
   required: 'Yes'
@@ -219,7 +231,9 @@ fields:
   action: create
   example: |
     {
-      "reference": "Patient/4342011"
+      "subject": {
+        "reference": "Patient/4342011"
+      }
     }
 
 - name: participant
@@ -293,7 +307,7 @@ fields:
         info_link: http://hl7.org/fhir/r4/valueset-encounter-participant-type.html
       - display: Millennium Encounter/Personnel Relationship
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/333
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-333-encounterpersonnel-relationship
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-333-encounterpersonnel-relationship
 
   - name: period
     required: 'No'
@@ -349,7 +363,6 @@ fields:
       ]
     }
   note: Only the text field is supported for reasonCode.
-
 
 - name: hospitalization
   required: 'No'
@@ -415,7 +428,7 @@ fields:
         info_link: http://hl7.org/fhir/r4/valueset-encounter-admit-source.html
       - display: Millennium Hospitalization Admission Source
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/2
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-2-admission-source
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-2-admission-source
 
   - name: dietPreference
     required: 'No'
@@ -431,7 +444,7 @@ fields:
         info_link: http://hl7.org/fhir/r4/valueset-encounter-diet.html
       - display: Millennium Patient Diet Preference
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/18
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-18-diet
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-18-diet
 
   - name: specialCourtesy
     required: 'No'
@@ -447,10 +460,10 @@ fields:
         info_link: http://hl7.org/fhir/r4/valueset-encounter-special-courtesy.html
       - display: Millennium Patient VIP Status
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/67
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-67-vip
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-67-vip
       - display: Millennium Patient Courtesy
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/16
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-16-courtesy
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-16-courtesy
 
   - name: specialArrangement
     required: 'No'
@@ -500,7 +513,7 @@ fields:
         info_link: http://hl7.org/fhir/r4/valueset-encounter-discharge-disposition.html
       - display: Millennium Encounter Discharge Disposition
         system: https://fhir.cerner.com/&lt;EHR source id&gt;/codeSet/19
-        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes/#code-set-19-discharge-disposition
+        info_link: https://fhir.cerner.com/millennium/r4/proprietary-codes-and-systems/#code-set-19-discharge-disposition
 
 - name: location
   required: 'Yes'
@@ -513,7 +526,7 @@ fields:
       "location": [
         {
           "location": {
-            "reference": "Location/35646787",
+            "reference": "Location/35646787"
           }
         }
       ]
