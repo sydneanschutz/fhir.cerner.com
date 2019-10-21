@@ -9,7 +9,7 @@ title: Coverage | R4 API
 
 ## Overview
 
-The Coverage resource provides ................
+The Coverage resource is intended to provide the high-level identifiers and descriptors of an insurance plan, typically the information which would appear on an insurance card, which may be used to pay, in part or in whole, for the provision of health care products and services.
 
 The following fields are returned if valued:
 
