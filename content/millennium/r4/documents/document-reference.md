@@ -14,6 +14,7 @@ The DocumentReference resource is used to reference a clinical document for a pa
 The following fields are returned if valued:
 
 * [DocumentReference id](https://hl7.org/fhir/r4/resource-definitions.html#Resource.id){:target="_blank"}
+* [Identifier]( https://hl7.org/fhir/r4/documentreference-definitions.html#DocumentReference.identifier){:target="_blank"}
 * [Status]( https://hl7.org/fhir/r4/documentreference-definitions.html#DocumentReference.status){:target="_blank"}
 * [Document status](https://hl7.org/fhir/r4/documentreference-definitions.html#DocumentReference.docStatus){:target="_blank"}
 * [Document type](https://hl7.org/fhir/r4/documentreference-definitions.html#DocumentReference.type){:target="_blank"}
@@ -48,12 +49,13 @@ Search for DocumentReferences that meet supplied query parameters:
 
  Name                     | Required?          | Type          | Description
 --------------------------|--------------------|---------------|----------------------------------------------------------------------------------------------------
- `_id`                    | This, or `patient` | [`token`]     | The logical resource id associated with the resource. Example: `12345`
- `patient`                | This, or `_id`     | [`reference`] | The specific patient to return DocumentReferences for. Example: `12345`
- `encounter`              | N                  | [`reference`] | The Encounter in which the document was created. May be a list separated by commas. Example: `123,456`
- `period`                 | N                  | [`date`]      | Time of service that is being documented. Must use the `ge` and `lt` prefixes. Example: `lt2017-01-5`
- `type`                   | N                  | [`token`]     | The type of document. May be a list separated by commas. Example: `http://loinc.org|11488-4`
- `_count`                 | N                  | [`number`]    | The maximum number of results to include in a page. Example: `50`
+ `_id`                    | This, or `patient`, or `identifier`     | [`token`]     | The logical resource id associated with the resource. Example: `12345`
+ `patient`                | This, or `_id`, or `identifier`         | [`reference`] | The specific patient to return DocumentReferences for. Example: `12345`
+ `identifier`             | This, or `patient`, or `_id`            | [`token`] | An Identifier/alias. May be a list separated by commas. Example: `http://hl7.org/fhir/sid/us-npi|4326587548`
+ `encounter`              | N                                       | [`reference`] | The Encounter in which the document was created. May be a list separated by commas. Example: `123,456`
+ `period`                 | N                                       | [`date`]      | Time of service that is being documented. Must use the `ge` and `lt` prefixes. Example: `lt2017-01-5`
+ `type`                   | N                                       | [`token`]     | The type of document. May be a list separated by commas. Example: `http://loinc.org|11488-4`
+ `_count`                 | N                                       | [`number`]    | The maximum number of results to include in a page. Example: `50`
 
 _Implementation Notes_
 
