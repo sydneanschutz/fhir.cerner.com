@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No Records
     DSTU2_DOCUMENT_REFERENCE_DOCREF_SEARCH ||= {
       "resourceType": "Bundle",
       "id": "21392fef-2513-43de-aa6c-a51c27a26d31",
@@ -9,12 +10,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference?patient=1316024&created=ge2016-01-06&created=le2016-01-07"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference?patient=1316024&created=ge2016-01-06&created=le2016-01-07"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/6589312",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/6589312",
           "resource": {
             "resourceType": "DocumentReference",
             "id": "6589312",
@@ -37,7 +38,7 @@ module Cerner
                   "code": "34839-1"
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                   "code": "2820583",
                   "display": "Rheumatology Consultation",
                   "userSelected": true
@@ -66,7 +67,7 @@ module Cerner
               {
                 "attachment": {
                   "contentType": "application/pdf",
-                  "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-6589312",
+                  "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-6589312",
                   "title": "Rheumatology Note"
                 }
               }
@@ -79,7 +80,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/6589307",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/6589307",
           "resource": {
             "resourceType": "DocumentReference",
             "id": "6589307",
@@ -102,7 +103,7 @@ module Cerner
                   "code": "34839-1"
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                   "code": "2820583",
                   "display": "Rheumatology Consultation",
                   "userSelected": true
@@ -131,7 +132,7 @@ module Cerner
               {
                 "attachment": {
                   "contentType": "application/pdf",
-                  "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-6589307",
+                  "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-6589307",
                   "title": "Rheumatology Note"
                 }
               }
@@ -144,7 +145,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/6589287",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/6589287",
           "resource": {
             "resourceType": "DocumentReference",
             "id": "6589287",
@@ -167,7 +168,7 @@ module Cerner
                   "code": "34839-1"
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                   "code": "2820583",
                   "display": "Rheumatology Consultation",
                   "userSelected": true
@@ -196,7 +197,7 @@ module Cerner
               {
                 "attachment": {
                   "contentType": "application/pdf",
-                  "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-6589287",
+                  "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-6589287",
                   "title": "Rheumatology Note"
                 }
               }
@@ -209,7 +210,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/6589283",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/6589283",
           "resource": {
             "resourceType": "DocumentReference",
             "id": "6589283",
@@ -232,7 +233,7 @@ module Cerner
                   "code": "34839-1"
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                   "code": "2820583",
                   "display": "Rheumatology Consultation",
                   "userSelected": true
@@ -261,7 +262,7 @@ module Cerner
               {
                 "attachment": {
                   "contentType": "application/pdf",
-                  "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-6589283",
+                  "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-6589283",
                   "title": "Rheumatology Note"
                 }
               }
@@ -284,12 +285,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/$docref?patient=1316035&type=http%3A%2F%2Floinc.org%7C34133-9"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/$docref?patient=1316035&type=http%3A%2F%2Floinc.org%7C34133-9"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/b584c2b8-4d89-4b7b-a7a3-0d2cb68b2c46",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/b584c2b8-4d89-4b7b-a7a3-0d2cb68b2c46",
           "resource": {
             "resourceType": "DocumentReference",
             "id": "b584c2b8-4d89-4b7b-a7a3-0d2cb68b2c46",
@@ -311,7 +312,7 @@ module Cerner
               {
                 "attachment": {
                   "contentType": "application/xml",
-                  "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/$autogen-ccd-if?patient=1316035"
+                  "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/$autogen-ccd-if?patient=1316035"
                 },
                 "format": [
                   {
@@ -349,7 +350,7 @@ module Cerner
             "code": "68608-9"
           },
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
             "code": "3374547",
             "display": "Depart Summary",
             "userSelected": true
@@ -379,7 +380,7 @@ module Cerner
         {
           "attachment": {
             "contentType": "application/pdf",
-            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-7499283",
+            "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-7499283",
             "title": "Physician Emergency department Note"
           }
         }

@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No Records
     DSTU2_GOAL_BUNDLE ||= {
         "resourceType": "Bundle",
         "id": "5ecc9ee8-8a52-4676-a2c6-b8698d30e284",
@@ -8,10 +9,10 @@ module Cerner
         "total": 3,
         "link": [{
             "relation": "self",
-            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Goal?patient=685925"
+            "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Goal?patient=685925"
         }],
         "entry": [{
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Goal/59475953",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Goal/59475953",
             "resource": {
                 "resourceType": "Goal",
                 "id": "59475953",
@@ -45,7 +46,7 @@ module Cerner
                 }]
             }
         }, {
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Goal/59535837",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Goal/59535837",
             "resource": {
                 "resourceType": "Goal",
                 "id": "59535837",
@@ -73,7 +74,7 @@ module Cerner
                 "statusDate": "2016-12-21"
             }
         }, {
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Goal/59535833",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Goal/59535833",
             "resource": {
                 "resourceType": "Goal",
                 "id": "59535833",
@@ -119,10 +120,10 @@ module Cerner
         "total": 1,
         "link": [{
             "relation": "self",
-            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Goal?_id=59563849"
+            "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Goal?_id=59563849"
         }],
         "entry": [{
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Goal/59563849",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Goal/59563849",
             "resource": {
                 "resourceType": "Goal",
                 "id": "59563849",

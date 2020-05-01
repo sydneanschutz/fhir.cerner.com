@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No Records
     DSTU2_PROCEDURE_ENTRY ||= {
       "resourceType": "Procedure",
       "id": "24110557",
@@ -52,12 +53,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Procedure?patient=1316020"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure?patient=1316020"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Procedure/24110557",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/24110557",
           "resource": {
             "resourceType": "Procedure",
             "id": "24110557",
@@ -101,7 +102,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Procedure/26394551",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/26394551",
           "resource": {
             "resourceType": "Procedure",
             "id": "26394551",
@@ -139,7 +140,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Procedure/34722551",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/34722551",
           "resource": {
             "resourceType": "Procedure",
             "id": "34722551",
@@ -194,7 +195,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Procedure/26394555",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Procedure/26394555",
           "resource": {
             "resourceType": "Procedure",
             "id": "26394555",

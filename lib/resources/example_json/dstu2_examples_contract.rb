@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No records
     DSTU2_CONTRACT_ENTRY ||= {
       "resourceType": "Contract",
       "id": "7470218",
@@ -81,6 +82,7 @@ module Cerner
       ]
     }
 
+    # TODO: No records
     DSTU2_CONTRACT_BUNDLE ||= {
       "resourceType": "Bundle",
       "id": "b5c1e566-ba97-4523-b113-83d1125e7d1d",
@@ -89,12 +91,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Contract?subject=Patient%2F4598008"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Contract?subject=Patient%2F4598008"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Contract/7470218",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Contract/7470218",
           "resource": {
             "resourceType": "Contract",
             "id": "7470218",
@@ -176,7 +178,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Contract/7470237",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Contract/7470237",
           "resource": {
             "resourceType": "Contract",
             "id": "7470237",
@@ -260,6 +262,7 @@ module Cerner
       ]
     }
 
+    # TODO: No records
     DSTU2_CONTRACT_BUNDLE_INCLUDE_ACTOR ||= {
       "resourceType": "Bundle",
         "id": "ce512c79-4aed-41cf-b617-bcf969ae657a",
@@ -268,12 +271,12 @@ module Cerner
         "link": [
           {
             "relation": "self",
-            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Contract?subject=Patient%2F4598008&_include=Contract%3Aactor"
+            "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Contract?subject=Patient%2F4598008&_include=Contract%3Aactor"
           }
         ],
         "entry": [
           {
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Contract/7470218",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Contract/7470218",
             "resource": {
               "resourceType": "Contract",
               "id": "7470218",
@@ -355,7 +358,7 @@ module Cerner
             }
           },
           {
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Contract/7470237",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Contract/7470237",
             "resource": {
               "resourceType": "Contract",
               "id": "7470237",
@@ -437,7 +440,7 @@ module Cerner
             }
           },
           {
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/RelatedPerson/7470237",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/RelatedPerson/7470237",
             "resource": {
               "resourceType": "RelatedPerson",
               "id": "7470237",
@@ -498,7 +501,7 @@ module Cerner
             }
           },
           {
-            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/RelatedPerson/7470218",
+            "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/RelatedPerson/7470218",
             "resource": {
               "resourceType": "RelatedPerson",
               "id": "7470218",

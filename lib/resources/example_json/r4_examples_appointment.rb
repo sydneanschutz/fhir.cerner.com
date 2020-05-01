@@ -16,7 +16,7 @@ module Cerner
           {
               "coding": [
                   {
-                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                       "code": "21265426",
                       "display": "Same Day",
                       "userSelected": true
@@ -41,7 +41,7 @@ module Cerner
                   {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14250",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14250",
                               "code": "4574",
                               "display": "Resource",
                               "userSelected": true
@@ -71,7 +71,7 @@ module Cerner
                   {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14250",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14250",
                               "code": "4572",
                               "display": "Patient",
                               "userSelected": true
@@ -160,7 +160,7 @@ module Cerner
           {
               "coding": [
                   {
-                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                       "code": "21265426",
                       "display": "Same Day",
                       "userSelected": true
@@ -185,7 +185,7 @@ module Cerner
                   {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14250",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14250",
                               "code": "4574",
                               "display": "Resource",
                               "userSelected": true
@@ -215,7 +215,7 @@ module Cerner
                   {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14250",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14250",
                               "code": "4572",
                               "display": "Patient",
                               "userSelected": true
@@ -277,15 +277,15 @@ module Cerner
       "link": [
         {
             "relation": "self",
-            "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment?date=ge2017-10-04T13:00:00.000Z&date=lt2017-10-04T14:00:00.000Z&patient=4704007"
+            "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment?date=ge2017-10-04T13:00:00.000Z&date=lt2017-10-04T14:00:00.000Z&patient=4704007"
         },
         {
             "relation": "next",
-            "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment?-pageContext=H4sIAAAAAAAAAI1SXW%2FCIBT9LzxXC%2FSDyptTH%2FZizOzDssUH1l5bEoWGollm%2FO%2BDtpuNmckSkhPOvRzOPXBBomm0VPYIym5BmKJeGGnBSIH4BTWigq38AsRJgD6gkmopLOTy6BhEMckmhE4IyUnKMXZrijF%2BQwECVf7VGOeUcrdIOqWsazzoQlip1UKX0CL%2BHuOUZtksiHGcEZrtAmfBSufteenLfm%2F0WZZgfomjm0Cqalvoxl9WW9vwMKwPbKpNFe5racKXOByNia7BeOpeiMWMsSQJemQBSzC5oednM5akA2aejzq%2BQ99Hhj0hAyY9RoNONNSjgadOJ3H%2BFXzap0fR9olFo8R8%2B3zsHvEfzy4bOEt9au%2FqE3Irrf77MgaskArK%2BX1Su5vYxn2PpTRQ%2BCd0cuvVa%2B6O1qLdjDoQ34tDCx2%2Fdu57zpoTXL8Bnx1Hw38CAAA%3D&-pageDirection=NEXT"
+            "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment?-pageContext=H4sIAAAAAAAAAI1SXW%2FCIBT9LzxXC%2FSDyptTH%2FZizOzDssUH1l5bEoWGollm%2FO%2BDtpuNmckSkhPOvRzOPXBBomm0VPYIym5BmKJeGGnBSIH4BTWigq38AsRJgD6gkmopLOTy6BhEMckmhE4IyUnKMXZrijF%2BQwECVf7VGOeUcrdIOqWsazzoQlip1UKX0CL%2BHuOUZtksiHGcEZrtAmfBSufteenLfm%2F0WZZgfomjm0Cqalvoxl9WW9vwMKwPbKpNFe5racKXOByNia7BeOpeiMWMsSQJemQBSzC5oednM5akA2aejzq%2BQ99Hhj0hAyY9RoNONNSjgadOJ3H%2BFXzap0fR9olFo8R8%2B3zsHvEfzy4bOEt9au%2FqE3Irrf77MgaskArK%2BX1Su5vYxn2PpTRQ%2BCd0cuvVa%2B6O1qLdjDoQ34tDCx2%2Fdu57zpoTXL8Bnx1Hw38CAAA%3D&-pageDirection=NEXT"
         }
     ],
       "entry": [
-        "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3005756",
+        "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment/3005756",
         "resource": R4_APPOINTMENT_ENTRY
       ]
     }

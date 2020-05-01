@@ -88,7 +88,7 @@ module Cerner
           "type": {
             "coding": [
                 {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "10",
                 "display": "MRN",
                 "userSelected": true
@@ -108,7 +108,7 @@ module Cerner
           "type": {
             "coding": [
                 {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "670843",
                 "display": "Messaging",
                 "userSelected": true
@@ -128,7 +128,7 @@ module Cerner
           "type": {
             "coding": [
                 {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "36322657",
                 "display": "Federated Person Principal",
                 "userSelected": true
@@ -137,7 +137,7 @@ module Cerner
             "text": "Federated Person Principal"
           },
           "system": "urn:oid:2.16.840.1.113883.3.13.6",
-          "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:0B8A0111-E8E6-4C26-A91C-5069CBC6B1CA:PRINCIPAL:ABC123",
+          "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:ec2458f2-1e24-41c8-b71b-0e701af7583d:PRINCIPAL:ABC123",
           "period": {
             "start": "2017-09-26T05:00:00.000Z",
             "end": "2019-01-02T05:00:00.000Z"
@@ -149,7 +149,7 @@ module Cerner
           "type": {
             "coding": [
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "36322657",
                 "display": "Federated Person Principal",
                 "userSelected": true
@@ -169,7 +169,7 @@ module Cerner
           "type": {
             "coding": [
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "36322657",
                 "display": "Federated Person Principal",
                 "userSelected": true
@@ -215,7 +215,7 @@ module Cerner
       "maritalStatus": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/38",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/38",
             "code": "309237",
             "display": "Married",
             "userSelected": true
@@ -235,7 +235,7 @@ module Cerner
             {
               "coding": [
                   {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/351",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
                   "code": "36327661",
                   "display": "Authorized Representative",
                   "userSelected": true
@@ -307,7 +307,7 @@ module Cerner
             {
               "coding": [
                   {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/351",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
                   "code": "36327661",
                   "display": "Authorized Representative",
                   "userSelected": true
@@ -392,11 +392,11 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Patient?_id=4342009"
+          "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Patient?_id=4342009"
         }
       ],
       "entry": [
-        "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Patient/4342009",
+        "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Patient/4342009",
         "resource": R4_PATIENT_ENTRY
       ]
     }
@@ -597,7 +597,7 @@ module Cerner
             "language": {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/36",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/36",
                   "code": "312729",
                 }
               ]

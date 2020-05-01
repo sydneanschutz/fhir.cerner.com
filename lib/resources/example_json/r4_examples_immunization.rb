@@ -95,12 +95,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Immunization?patient=1316020"
+          "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Immunization?patient=1316020"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Immunization/M43434511",
+          "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Immunization/M43434511",
           "resource": R4_IMMUNIZATION_ENTRY
         }
       ]
@@ -113,7 +113,7 @@ module Cerner
       "vaccineCode": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
             "code": "2798497",
             "display": "poliovirus vaccine, inactivated",
             "userSelected": false
@@ -131,7 +131,7 @@ module Cerner
       "reportOrigin": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/30200",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/30200",
             "code": "679972",
             "display": "Clinician",
             "userSelected": false
@@ -142,7 +142,7 @@ module Cerner
       "site": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/97",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/97",
             "code": "610",
             "display": "Right Hand",
             "userSelected": false
@@ -153,7 +153,7 @@ module Cerner
       "route": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4001",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4001",
             "code": "318167",
             "display": "IM",
             "userSelected": false
@@ -189,7 +189,7 @@ module Cerner
       "reportOrigin": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/30200",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/30200",
             "code": "679972",
             "display": "Clinician",
             "userSelected": false

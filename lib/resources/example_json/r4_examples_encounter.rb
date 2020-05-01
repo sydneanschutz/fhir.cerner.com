@@ -18,7 +18,7 @@ module Cerner
           "type": {
             "coding": [
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/319",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/319",
                 "code": "1077",
                 "display": "FIN NBR",
                 "userSelected": true
@@ -44,7 +44,7 @@ module Cerner
         {
           "coding": [
             {
-              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/71",
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/71",
               "code": "309308",
               "display": "Inpatient",
               "userSelected": true
@@ -56,7 +56,7 @@ module Cerner
       "serviceType": {
         "coding": [
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/34",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/34",
             "code": "313004",
             "display": "Emergency Medicine",
             "userSelected": true
@@ -80,7 +80,7 @@ module Cerner
             {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                   "code": "1116",
                   "display": "Admitting Physician",
                   "userSelected": true
@@ -102,7 +102,7 @@ module Cerner
             {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                   "code": "1119",
                   "display": "Attending Physician",
                   "userSelected": true
@@ -124,7 +124,7 @@ module Cerner
             {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                   "code": "1123",
                   "display": "Ordering Physician",
                   "userSelected": true
@@ -146,7 +146,7 @@ module Cerner
             {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                   "code": "1124",
                   "display": "Other",
                   "userSelected": true
@@ -169,7 +169,7 @@ module Cerner
             {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                   "code": "1126",
                   "display": "Referring Physician",
                   "userSelected": true
@@ -212,12 +212,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Encounter?patient=4342010"
+          "url": "https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Encounter?patient=4342010"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Encounter/4027918",
+          "fullUrl": "https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Encounter/4027918",
           "resource": {
             "resourceType": "Encounter",
             "id": "4027918",
@@ -235,7 +235,7 @@ module Cerner
                 "type": {
                   "coding": [
                     {
-                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/319",
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/319",
                       "code": "1077",
                       "display": "FIN NBR",
                       "userSelected": true
@@ -261,7 +261,7 @@ module Cerner
               {
                 "coding": [
                   {
-                    "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/71",
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/71",
                     "code": "309308",
                     "display": "Inpatient",
                     "userSelected": true
@@ -273,7 +273,7 @@ module Cerner
             "serviceType": {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/34",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/34",
                   "code": "313004",
                   "display": "Emergency Medicine",
                   "userSelected": true
@@ -297,7 +297,7 @@ module Cerner
                   {
                     "coding": [
                       {
-                        "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                         "code": "1116",
                         "display": "Admitting Physician",
                         "userSelected": true
@@ -319,7 +319,7 @@ module Cerner
                   {
                     "coding": [
                       {
-                        "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                         "code": "1119",
                         "display": "Attending Physician",
                         "userSelected": true
@@ -341,7 +341,7 @@ module Cerner
                   {
                     "coding": [
                       {
-                        "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                         "code": "1123",
                         "display": "Ordering Physician",
                         "userSelected": true
@@ -363,7 +363,7 @@ module Cerner
                   {
                     "coding": [
                       {
-                        "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                         "code": "1124",
                         "display": "Other",
                         "userSelected": true
@@ -386,7 +386,7 @@ module Cerner
                   {
                     "coding": [
                       {
-                        "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                         "code": "1126",
                         "display": "Referring Physician",
                         "userSelected": true
@@ -484,7 +484,7 @@ module Cerner
             {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/333",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
                   "code": "666813"
                 }
               ]

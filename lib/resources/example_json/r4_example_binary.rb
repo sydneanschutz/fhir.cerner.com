@@ -1,5 +1,6 @@
 module Cerner
   module Resources
+    # TODO: No Records, update ID
     R4_BINARY_ENTRY = {
       "resourceType": "Binary",
       "id": "XR-11707283",

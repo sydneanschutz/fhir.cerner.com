@@ -9,12 +9,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Condition?patient=1316024"
+          "url": "https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition?patient=1316024"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Condition/p40880687",
+          "fullUrl": "https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p40880687",
           "resource": {
             "resourceType": "Condition",
             "id": "p40880687",
@@ -63,7 +63,7 @@ module Cerner
             "severity": {
               "coding": [
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/12022",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/12022",
                   "code": "3294",
                   "display": "Moderate",
                   "userSelected": true
@@ -105,7 +105,7 @@ module Cerner
     }
 
     R4_CONDITION_ENTRY ||= {
-      "fullUrl": "https://fhir-ehr.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Condition/p40880687",
+      "fullUrl": "https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p40880687",
       "resource": {
         "resourceType": "Condition",
         "id": "p40880687",
@@ -154,7 +154,7 @@ module Cerner
         "severity": {
           "coding": [
             {
-              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/12022",
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/12022",
               "code": "3294",
               "display": "Moderate",
               "userSelected": true
@@ -310,7 +310,7 @@ module Cerner
       "severity": {
           "coding": [
               {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/12022",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/12022",
                   "code": "3294",
                   "display": "Moderate",
                   "userSelected": true

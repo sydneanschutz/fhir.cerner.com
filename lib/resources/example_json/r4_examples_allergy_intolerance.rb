@@ -1,7 +1,7 @@
 module Cerner
   module Resources
     R4_ALLERGY_INTOLERANCE_ENTRY ||= {
-      "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/AllergyIntolerance/983733",
+      "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/AllergyIntolerance/983733",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "983733",
@@ -127,11 +127,11 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/AllergyIntolerance?_id=983733"
+          "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/AllergyIntolerance?_id=983733"
         }
       ],
       "entry": [
-        "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/AllergyIntolerance/983733",
+        "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/AllergyIntolerance/983733",
         "resource": R4_ALLERGY_INTOLERANCE_ENTRY
       ]
     }

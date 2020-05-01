@@ -17,7 +17,7 @@ module Cerner
            "type": {
              "coding": [
                {
-                 "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/334",
+                 "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/334",
                  "code": "NPI",
                  "display": "Organization NPI",
                  "userSelected": true
@@ -39,7 +39,7 @@ module Cerner
          {
            "coding": [
              {
-               "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/278",
+               "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/278",
                "code": "GOVTDEPT",
                "display": "Government Department",
                "userSelected": true
@@ -84,12 +84,12 @@ module Cerner
        "link": [
          {
            "relation": "self",
-           "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca//Organization?_id=1750115"
+           "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d//Organization?_id=1750115"
          }
        ],
        "entry": [
          {
-           "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca//Organization/1750115",
+           "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d//Organization/1750115",
            "resource": {
              "resourceType": "Organization",
              "id": "1750115",
@@ -107,7 +107,7 @@ module Cerner
                  "type": {
                    "coding": [
                      {
-                       "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/334",
+                       "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/334",
                        "code": "TAXID",
                        "display": "Tax Identifier",
                        "userSelected": true
@@ -128,7 +128,7 @@ module Cerner
                  "type": {
                    "coding": [
                      {
-                       "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/334",
+                       "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/334",
                        "code": "NPI",
                        "display": "Organization NPI",
                        "userSelected": true
@@ -150,7 +150,7 @@ module Cerner
                {
                  "coding": [
                    {
-                     "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/278",
+                     "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/278",
                      "code": "EMPLOYER",
                      "display": "Employer",
                      "userSelected": true
@@ -161,7 +161,7 @@ module Cerner
                {
                  "coding": [
                    {
-                     "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/278",
+                     "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/278",
                      "code": "RCCLINIC",
                      "display": "RCA Clinic Organizations",
                      "userSelected": true
@@ -177,7 +177,7 @@ module Cerner
                {
                  "coding": [
                    {
-                     "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/278",
+                     "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/278",
                      "code": "FACILITY",
                      "display": "Facility",
                      "userSelected": true
@@ -188,7 +188,7 @@ module Cerner
                {
                  "coding": [
                    {
-                     "system": "https://fhir.cerner.com/fb8067d7-e012-4703-8888-17b86d11f0f8/codeSet/278",
+                     "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/278",
                      "code": "CLIENT",
                      "display": "Client",
                      "userSelected": true

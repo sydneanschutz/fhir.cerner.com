@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No Records
     DSTU2_SCHEDULE_ENTRY ||= {
       "resourceType": "Schedule",
       "id": "21265426-633867-3121665-0",
@@ -43,12 +44,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule?_id=21265426-633867-3121665-0%2C21265426-633867-3121665-15"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule?_id=21265426-633867-3121665-0%2C21265426-633867-3121665-15"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-633867-3121665-15",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-633867-3121665-15",
           "resource": {
             "resourceType": "Schedule",
             "id": "21265426-633867-3121665-15",
@@ -84,7 +85,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-633867-3121665-0",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-633867-3121665-0",
           "resource": {
             "resourceType": "Schedule",
             "id": "21265426-633867-3121665-0",

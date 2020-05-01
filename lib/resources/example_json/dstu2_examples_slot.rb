@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No Records
     DSTU2_SLOT_ENTRY ||= {
       "resourceType": "Slot",
       "id": "21265426-633867-3121665-0",
@@ -45,16 +46,16 @@ module Cerner
     "link": [
       {
         "relation": "self",
-        "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot?slot-type=http%3A%2F%2Fsnomed.info%2Fsct%7C408443003&schedule.actor=Practitioner%2F2578010&start=2019&_count=5"
+        "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot?slot-type=http%3A%2F%2Fsnomed.info%2Fsct%7C408443003&schedule.actor=Practitioner%2F2578010&start=2019&_count=5"
       },
       {
         "relation": "next",
-        "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot?-pageContext=8676dea6-9944-42e8-bd79-0deaafd16d06&-pageDirection=NEXT"
+        "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot?-pageContext=8676dea6-9944-42e8-bd79-0deaafd16d06&-pageDirection=NEXT"
       }
     ],
     "entry": [
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-4048128-7759739-0",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-4048128-7759739-0",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-4048128-7759739-0",
@@ -83,7 +84,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -103,7 +104,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-633867-7759739-0",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-633867-7759739-0",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-633867-7759739-0",
@@ -132,7 +133,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -152,7 +153,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-4048128-7759739-5",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-4048128-7759739-5",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-4048128-7759739-5",
@@ -181,7 +182,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -201,7 +202,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-633867-7759739-5",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-633867-7759739-5",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-633867-7759739-5",
@@ -230,7 +231,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -250,7 +251,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-4048128-7759739-10",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-4048128-7759739-10",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-4048128-7759739-10",
@@ -279,7 +280,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -308,16 +309,16 @@ module Cerner
     "link": [
       {
         "relation": "self",
-        "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot?slot-type=http%3A%2F%2Fsnomed.info%2Fsct%7C408443003&schedule.actor=Practitioner%2F2578010&start=2019&_include=Slot%3Aschedule&_count=5"
+        "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot?slot-type=http%3A%2F%2Fsnomed.info%2Fsct%7C408443003&schedule.actor=Practitioner%2F2578010&start=2019&_include=Slot%3Aschedule&_count=5"
       },
       {
         "relation": "next",
-        "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot?_include=Slot%3Aschedule&-pageContext=77c5e8be-9be4-497d-9e96-7516f237c138&-pageDirection=NEXT"
+        "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot?_include=Slot%3Aschedule&-pageContext=77c5e8be-9be4-497d-9e96-7516f237c138&-pageDirection=NEXT"
       }
     ],
     "entry": [
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-4048128-7759739-0",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-4048128-7759739-0",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-4048128-7759739-0",
@@ -346,7 +347,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -366,7 +367,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-633867-7759739-0",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-633867-7759739-0",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-633867-7759739-0",
@@ -395,7 +396,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -415,7 +416,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-4048128-7759739-5",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-4048128-7759739-5",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-4048128-7759739-5",
@@ -444,7 +445,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -464,7 +465,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-633867-7759739-5",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-633867-7759739-5",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-633867-7759739-5",
@@ -493,7 +494,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -513,7 +514,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Slot/21265426-4048128-7759739-10",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Slot/21265426-4048128-7759739-10",
         "resource": {
           "resourceType": "Slot",
           "id": "21265426-4048128-7759739-10",
@@ -542,7 +543,7 @@ module Cerner
                 "userSelected": false
               },
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                 "code": "21265426",
                 "display": "Same Day",
                 "userSelected": true
@@ -562,7 +563,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-4048128-7759739-0",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-4048128-7759739-0",
         "resource": {
           "resourceType": "Schedule",
           "id": "21265426-4048128-7759739-0",
@@ -601,7 +602,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-633867-7759739-0",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-633867-7759739-0",
         "resource": {
           "resourceType": "Schedule",
           "id": "21265426-633867-7759739-0",
@@ -640,7 +641,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-4048128-7759739-5",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-4048128-7759739-5",
         "resource": {
           "resourceType": "Schedule",
           "id": "21265426-4048128-7759739-5",
@@ -679,7 +680,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-633867-7759739-5",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-633867-7759739-5",
         "resource": {
           "resourceType": "Schedule",
           "id": "21265426-633867-7759739-5",
@@ -718,7 +719,7 @@ module Cerner
         }
       },
       {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Schedule/21265426-4048128-7759739-10",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Schedule/21265426-4048128-7759739-10",
         "resource": {
           "resourceType": "Schedule",
           "id": "21265426-4048128-7759739-10",

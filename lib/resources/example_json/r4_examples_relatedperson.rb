@@ -18,7 +18,7 @@ module Cerner
           "type": {
             "coding": [
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "36322657",
                 "display": "Federated Person Principal",
                 "userSelected": true
@@ -43,7 +43,7 @@ module Cerner
           "type": {
             "coding": [
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
                 "code": "36322657",
                 "display": "Federated Person Principal",
                 "userSelected": true
@@ -58,7 +58,7 @@ module Cerner
             "text": "Federated Person Principal"
           },
           "system": "urn:oid:2.16.840.1.113883.3.13.6",
-          "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:0B8A0111-E8E6-4C26-A91C-5069CBC6B1CA:PRINCIPAL:AEIDKDKDDLKDSLSDK23",
+          "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:ec2458f2-1e24-41c8-b71b-0e701af7583d:PRINCIPAL:AEIDKDKDDLKDSLSDK23",
           "period": {
             "start": "2017-09-26T05:00:00.000Z",
             "end": "2019-01-02T05:00:00.000Z"
@@ -135,7 +135,7 @@ module Cerner
           "language": {
             "coding": [
               {
-                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/36",
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/36",
                 "code": "151",
                 "display": "English",
                 "userSelected": true
@@ -161,12 +161,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/RelatedPerson?_id=3440007-4768010"
+          "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/RelatedPerson?_id=3440007-4768010"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/RelatedPerson/3440007-4768010",
+          "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/RelatedPerson/3440007-4768010",
           "resource": R4_RELATEDPERSON_ENTRY
         }
       ]

@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No Records
     DSTU2_DEVICE_BUNDLE ||= {
       "resourceType": "Bundle",
       "id": "c2ce1064-f327-4642-8c1f-3f08c21af2b6",
@@ -8,10 +9,10 @@ module Cerner
       "total": 4,
       "link": [{
         "relation": "self",
-        "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device?patient=4478007"
+        "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device?patient=4478007"
       }],
       "entry": [{
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device/15575768",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device/15575768",
         "resource": {
           "resourceType": "Device",
           "id": "15575768",
@@ -55,7 +56,7 @@ module Cerner
           }
         }
       }, {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device/15577768",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device/15577768",
         "resource": {
           "resourceType": "Device",
           "id": "15577768",
@@ -98,7 +99,7 @@ module Cerner
           }
         }
       }, {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device/15577769",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device/15577769",
         "resource": {
           "resourceType": "Device",
           "id": "15577769",
@@ -141,7 +142,7 @@ module Cerner
           }
         }
       }, {
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device/15577770",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device/15577770",
         "resource": {
           "resourceType": "Device",
           "id": "15577770",
@@ -193,10 +194,10 @@ module Cerner
       "total": 1,
       "link": [{
         "relation": "self",
-        "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device?_id=15575768"
+        "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device?_id=15575768"
       }],
       "entry": [{
-        "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Device/15575768",
+        "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Device/15575768",
         "resource": {
           "resourceType": "Device",
           "id": "15575768",
@@ -284,6 +285,6 @@ module Cerner
         "display": "SMART, FRED RICK"
       }
     }
-    
+
   end
-end 
+end

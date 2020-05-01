@@ -1,7 +1,7 @@
 module Cerner
   module Resources
     R4_DOCUMENT_REFERENCE ||= {
-      "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/13307291",
+      "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/13307291",
       "resource": {
           "resourceType": "DocumentReference",
           "id": "13307291",
@@ -18,7 +18,7 @@ module Cerner
           "type": {
               "coding": [
                   {
-                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                       "code": "2820555",
                       "display": "Progress Note-Physician",
                       "userSelected": true
@@ -62,7 +62,7 @@ module Cerner
               {
                   "attachment": {
                       "contentType": "application/pdf",
-                      "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-13307291",
+                      "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-13307291",
                       "creation": "2019-12-16T23:10:29.000Z"
                   }
               }
@@ -87,16 +87,16 @@ module Cerner
       "link": [
           {
               "relation": "self",
-              "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference?patient=4478007"
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference?patient=4478007"
           },
           {
               "relation": "next",
-              "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference?patient=4478007&-pageContext=eNqNUm1r2zAQ_i0lY58ScZLjOTYU4tjqMHRxsJWw7osRqpIKbMkoSllHf_zk1GOl2UtBcO_3nO4eYTokpNXSou74KJBolVaCt_JRaod4x38YjXp-UPqA0rO14QeZGe3kdzdZXol_1t8bceoGRVjlpFUcVdJZ5YOrJzpk1NJlY-hqOTlZnbw0Szp1n0jboV7ao9HJ_kHZvuVPyMmub-yDGUH5sUd-hGQ-jxYAke-B4whmgP1jAMn5IQD45kMEcDzDZEbmDMcJhAkOEUR4CGG4hBfGSmRNK3tr9qqV_x2CXd9Oi_yawNwjDbPoU9t6sUrrImtSxqpitWW09i56c0MzVuxok6eMeseet0f5Duns6bWZjevOjRi6ftmwu-a2qNlbI_Vg5brZVOWuyGn1cbKs6dnltVWZ372Z7q99Rnh_-JzWGV3nxfrz-1kw0umSA6U_M3fK6A8vHLvMGFj3G39Nv7Im21Z1WQ13XRAIw3CKAxzHZBFNcRiFMSFREPjLT-HVvjYV3RXltv5TcQARifFQ_CkMogWJfxX7Dz5PnuEnbq8A8w%3D%3D&-pageDirection=NEXT"
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference?patient=4478007&-pageContext=eNqNUm1r2zAQ_i0lY58ScZLjOTYU4tjqMHRxsJWw7osRqpIKbMkoSllHf_zk1GOl2UtBcO_3nO4eYTokpNXSou74KJBolVaCt_JRaod4x38YjXp-UPqA0rO14QeZGe3kdzdZXol_1t8bceoGRVjlpFUcVdJZ5YOrJzpk1NJlY-hqOTlZnbw0Szp1n0jboV7ao9HJ_kHZvuVPyMmub-yDGUH5sUd-hGQ-jxYAke-B4whmgP1jAMn5IQD45kMEcDzDZEbmDMcJhAkOEUR4CGG4hBfGSmRNK3tr9qqV_x2CXd9Oi_yawNwjDbPoU9t6sUrrImtSxqpitWW09i56c0MzVuxok6eMeseet0f5Duns6bWZjevOjRi6ftmwu-a2qNlbI_Vg5brZVOWuyGn1cbKs6dnltVWZ372Z7q99Rnh_-JzWGV3nxfrz-1kw0umSA6U_M3fK6A8vHLvMGFj3G39Nv7Im21Z1WQ13XRAIw3CKAxzHZBFNcRiFMSFREPjLT-HVvjYV3RXltv5TcQARifFQ_CkMogWJfxX7Dz5PnuEnbq8A8w%3D%3D&-pageDirection=NEXT"
           }
       ],
       "entry": [
           {
-              "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/13307291",
+              "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/13307291",
               "resource": {
                   "resourceType": "DocumentReference",
                   "id": "13307291",
@@ -113,7 +113,7 @@ module Cerner
                   "type": {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                               "code": "2820555",
                               "display": "Progress Note-Physician",
                               "userSelected": true
@@ -157,7 +157,7 @@ module Cerner
                       {
                           "attachment": {
                               "contentType": "application/pdf",
-                              "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-13307291",
+                              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-13307291",
                               "creation": "2019-12-16T23:10:29.000Z"
                           }
                       }
@@ -175,7 +175,7 @@ module Cerner
               }
           },
           {
-              "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/13307287",
+              "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/13307287",
               "resource": {
                   "resourceType": "DocumentReference",
                   "id": "13307287",
@@ -192,7 +192,7 @@ module Cerner
                   "type": {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                               "code": "2820555",
                               "display": "Progress Note-Physician",
                               "userSelected": true
@@ -236,7 +236,7 @@ module Cerner
                       {
                           "attachment": {
                               "contentType": "application/pdf",
-                              "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-13307287",
+                              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-13307287",
                               "creation": "2019-12-16T22:47:57.000Z"
                           }
                       }
@@ -254,7 +254,7 @@ module Cerner
               }
           },
           {
-              "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/DocumentReference/13303295",
+              "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/DocumentReference/13303295",
               "resource": {
                   "resourceType": "DocumentReference",
                   "id": "13303295",
@@ -271,7 +271,7 @@ module Cerner
                   "type": {
                       "coding": [
                           {
-                              "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/72",
+                              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/72",
                               "code": "2820555",
                               "display": "Progress Note-Physician",
                               "userSelected": true
@@ -315,7 +315,7 @@ module Cerner
                       {
                           "attachment": {
                               "contentType": "application/pdf",
-                              "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Binary/XR-13303295",
+                              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Binary/XR-13303295",
                               "creation": "2019-12-16T18:05:25.000Z"
                           }
                       }

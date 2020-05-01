@@ -1,7 +1,7 @@
 module Cerner
   module Resources
     R4_MEDICATION_REQUEST ||={
-        "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationRequest/56770371",
+        "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationRequest/56770371",
         "resource": {
             "resourceType": "MedicationRequest",
             "id": "56770371",
@@ -23,7 +23,7 @@ module Cerner
                     "form": {
                         "coding": [
                             {
-                                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4002",
+                                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4002",
                                 "code": "3874335",
                                 "display": "Susp-Oral",
                                 "userSelected": true
@@ -137,7 +137,7 @@ module Cerner
                         "code": {
                             "coding": [
                                 {
-                                    "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4003",
+                                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4003",
                                     "code": "696530",
                                     "display": "Daily",
                                     "userSelected": true
@@ -155,7 +155,7 @@ module Cerner
                     "route": {
                         "coding": [
                             {
-                                "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4001",
+                                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4001",
                                 "code": "318185",
                                 "display": "PO",
                                 "userSelected": true
@@ -186,12 +186,12 @@ module Cerner
       "link": [
           {
               "relation": "self",
-              "url": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationRequest?patient=1316024"
+              "url": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationRequest?patient=1316024"
           }
       ],
       "entry": [
           {
-              "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationRequest/56770371",
+              "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationRequest/56770371",
               "resource": {
                   "resourceType": "MedicationRequest",
                   "id": "56770371",
@@ -213,7 +213,7 @@ module Cerner
                           "form": {
                               "coding": [
                                   {
-                                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4002",
+                                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4002",
                                       "code": "3874335",
                                       "display": "Susp-Oral",
                                       "userSelected": true
@@ -327,7 +327,7 @@ module Cerner
                               "code": {
                                   "coding": [
                                       {
-                                          "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4003",
+                                          "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4003",
                                           "code": "696530",
                                           "display": "Daily",
                                           "userSelected": true
@@ -345,7 +345,7 @@ module Cerner
                           "route": {
                               "coding": [
                                   {
-                                      "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/4001",
+                                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4001",
                                       "code": "318185",
                                       "display": "PO",
                                       "userSelected": true
@@ -369,7 +369,7 @@ module Cerner
               }
           },
           {
-              "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationRequest/59705223",
+              "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationRequest/59705223",
               "resource": {
                   "resourceType": "MedicationRequest",
                   "id": "59705223",
@@ -440,7 +440,7 @@ module Cerner
               }
           },
           {
-              "fullUrl": "https://fhir-open.sandboxcerner.com/r4/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationRequest/59705233",
+              "fullUrl": "https://fhir-open.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationRequest/59705233",
               "resource": {
                   "resourceType": "MedicationRequest",
                   "id": "59705233",

@@ -1,6 +1,7 @@
 module Cerner
   module Resources
 
+    # TODO: No records
     DSTU2_APPOINTMENT_BUNDLE ||= {
       "resourceType": "Bundle",
       "id": "4344d30c-0b5b-4be9-851a-adabb0fda827",
@@ -9,12 +10,12 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment?date=2017&patient=4704007&_count=50"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment?date=2017&patient=4704007&_count=50"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3005756",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment/3005756",
           "resource": {
             "resourceType": "Appointment",
             "id": "3005756",
@@ -35,7 +36,7 @@ module Cerner
                   "userSelected": false
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                   "code": "21265426",
                   "display": "Same Day",
                   "userSelected": true
@@ -97,7 +98,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3005759",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment/3005759",
           "resource": {
             "resourceType": "Appointment",
             "id": "3005759",
@@ -118,7 +119,7 @@ module Cerner
                   "userSelected": false
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                   "code": "21265426",
                   "display": "Same Day",
                   "userSelected": true
@@ -180,7 +181,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3005753",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment/3005753",
           "resource": {
             "resourceType": "Appointment",
             "id": "3005753",
@@ -201,7 +202,7 @@ module Cerner
                   "userSelected": false
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                   "code": "21265426",
                   "display": "Same Day",
                   "userSelected": true
@@ -263,7 +264,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3005760",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Appointment/3005760",
           "resource": {
             "resourceType": "Appointment",
             "id": "3005760",
@@ -284,7 +285,7 @@ module Cerner
                   "userSelected": false
                 },
                 {
-                  "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
                   "code": "21265426",
                   "display": "Same Day",
                   "userSelected": true
@@ -348,6 +349,7 @@ module Cerner
       ]
     }
 
+    # TODO: No records
     DSTU2_APPOINTMENT_READ ||= {
       "resourceType": "Appointment",
       "id": "3005756",
@@ -368,7 +370,7 @@ module Cerner
             "userSelected": false
           },
           {
-            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/14249",
             "code": "21265426",
             "display": "Same Day",
             "userSelected": true
@@ -428,6 +430,8 @@ module Cerner
         }
       ]
     }
+
+    # TODO: No records
     DSTU2_APPOINTMENT_UPDATE ||= {
       "resourceType": "Appointment",
       "id": "3005756",
@@ -503,6 +507,7 @@ module Cerner
       ]
     }
 
+    # TODO: No records
     DSTU2_APPOINTMENT_CREATE ||= {
       "resourceType": "Appointment",
       "slot": [

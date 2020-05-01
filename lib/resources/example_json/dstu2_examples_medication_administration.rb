@@ -1,6 +1,6 @@
 module Cerner
   module Resources
-
+    # TODO: No Records
     DSTU2_MEDICATION_ADMINISTRATION_BUNDLE ||= {
       "resourceType": "Bundle",
       "id": "a9117d85-042f-4dda-9e38-dce0286c57a4",
@@ -8,16 +8,16 @@ module Cerner
       "link": [
         {
           "relation": "self",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationAdministration?patient=4642007"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationAdministration?patient=4642007"
         },
         {
           "relation": "next",
-          "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationAdministration?patient=4642007&-pageContext=H4sIAAAAAAAAADWMuwoCMRBF_yW1BJN1iU4nrqVWW9hJSCYmYB6Ms4KI_25AvN3hHs5bNHtDAeJ8vMxi1Ymw8An93udUDgvXEPq7UAGHVJAgJw8uWmKJz65CiIna3b4kY25XilX-RPto0tUMRptRb4fexuInnvM_qkal9M4Mm3Xf5wtjreoSiQAAAA%3D%3D&-pageDirection=NEXT"
+          "url": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationAdministration?patient=4642007&-pageContext=H4sIAAAAAAAAADWMuwoCMRBF_yW1BJN1iU4nrqVWW9hJSCYmYB6Ms4KI_25AvN3hHs5bNHtDAeJ8vMxi1Ymw8An93udUDgvXEPq7UAGHVJAgJw8uWmKJz65CiIna3b4kY25XilX-RPto0tUMRptRb4fexuInnvM_qkal9M4Mm3Xf5wtjreoSiQAAAA%3D%3D&-pageDirection=NEXT"
         }
       ],
       "entry": [
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationAdministration/7283373",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationAdministration/7283373",
           "resource": { # REGULAR, MLTP CODINGS
             "resourceType": "MedicationAdministration",
             "id": "7283373",
@@ -85,7 +85,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationAdministration/7283283",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationAdministration/7283283",
           "resource": {
             "resourceType": "MedicationAdministration",
             "id": "7283283",
@@ -224,7 +224,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationAdministration/7277367",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationAdministration/7277367",
           "resource": {
             "resourceType": "MedicationAdministration",
             "id": "7277367",
@@ -301,7 +301,7 @@ module Cerner
           }
         },
         {
-          "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/MedicationAdministration/7277321",
+          "fullUrl": "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/MedicationAdministration/7277321",
           "resource": {
             "resourceType": "MedicationAdministration",
             "id": "7277321",
