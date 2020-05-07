@@ -25,7 +25,7 @@ When updating an appointment, the resource provides the ability to change the [A
 
 * From Booked to Arrived, Checked-In, or Cancelled
 * From Arrived to Checked-In, or Cancelled
-* From Checked-In to Cancelled
+* From Checked-In to Cancelled or Fulfilled
 
 Video visit functionality is for supported vendors only, and requires additional configuration and application support.
 

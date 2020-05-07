@@ -16,7 +16,7 @@ operations:
       }
     note: >
       <ul>
-        <li>Only "arrived", "checked-in", and "cancelled" are supported</li>
+        <li>Only "arrived", "checked-in", "cancelled", and "fulfuilled" are supported</li>
       </ul>
   - name: add-provider-vmr
     path: /contained/0/telecom/0/value
