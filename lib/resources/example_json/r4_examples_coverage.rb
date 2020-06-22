@@ -24,7 +24,7 @@ module Cerner
             },
             "text": {
               "status": "generated",
-              "div": "&lt;div>&lt;p>&lt;b>Coverage&lt;/b>&lt;/p>&lt;p>&lt;b>Status&lt;/b>: active&lt;/p>&lt;p>&lt;b>Subscriber&lt;/b>: WOLFE, STEPHANIE T&lt;/p>&lt;p>&lt;b>Beneficiary&lt;/b>: Stephanie Wolfe&lt;/p>&lt;p>&lt;b>Dependent Number&lt;/b>: KEWIL4WW&lt;/p>&lt;p>&lt;b>Coverage Start Date&lt;/b>: Sep  5, 2012  9:30 A.M. CDT&lt;/p>&lt;p>&lt;b>Payor&lt;/b>: Aetna Missouri POS - Open&lt;/p>&lt;p>&lt;b>Class&lt;/b>: plan: Value: 729823 Name: Aetna Missouri POS Open&lt;/p>&lt;/div>"
+              "div": "&lt;div>&lt;p>&lt;b>Coverage&lt;/b>&lt;/p>&lt;p>&lt;b>Status&lt;/b>: active&lt;/p>&lt;p>&lt;b>Subscriber&lt;/b>: WOLFE, STEPHANIE T&lt;/p>&lt;p>&lt;b>Beneficiary&lt;/b>: Stephanie Wolfe&lt;/p>&lt;p>&lt;b>Dependent Number&lt;/b>: KEWIL4WW&lt;/p>&lt;p>&lt;b>Relationship&lt;/b>: Self&lt;/p>&lt;p>&lt;b>Coverage Start Date&lt;/b>: Sep  5, 2012  9:30 A.M. CDT&lt;/p>&lt;p>&lt;b>Payor&lt;/b>: Aetna Missouri POS - Open&lt;/p>&lt;p>&lt;b>Class&lt;/b>: plan: Value: 729823 Name: Aetna Missouri POS Open&lt;/p>&lt;/div>"
             },
             "subscriber": {
               "reference": "Patient/1626016",
@@ -97,7 +97,7 @@ module Cerner
             },
             "text": {
               "status": "extensions",
-              "div": "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\">&lt;p>&lt;b>Coverage&lt;/b>&lt;/p>&lt;p>&lt;b>Status&lt;/b>: active&lt;/p>&lt;p>&lt;b>Subscriber&lt;/b>: JUREVICIUS, DARSHELLE&lt;/p>&lt;p>&lt;b>Encounter&lt;/b>: 1175911&lt;/p>&lt;p>&lt;b>Beneficiary&lt;/b>: Jurevicius, BABYBOY&lt;/p>&lt;p>&lt;b>Dependent Number&lt;/b>: 1626016&lt;/p>&lt;p>&lt;b>Coverage Start Date&lt;/b>: Sep  5, 2014  2:30 P.M. UTC&lt;/p>&lt;p>&lt;b>Coverage End Date&lt;/b>: Sep  5, 2015  2:30 P.M. UTC&lt;/p>&lt;p>&lt;b>Payor&lt;/b>: Cigna&lt;/p>&lt;p>&lt;b>Class&lt;/b>: plan: Value: 729825 Name: Cigna, group: Value: 456 Name: name&lt;/p>&lt;/div>"
+              "div": "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\">&lt;p>&lt;b>Coverage&lt;/b>&lt;/p>&lt;p>&lt;b>Status&lt;/b>: active&lt;/p>&lt;p>&lt;b>Subscriber&lt;/b>: JUREVICIUS, DARSHELLE&lt;/p>&lt;p>&lt;b>Encounter&lt;/b>: 1175911&lt;/p>&lt;p>&lt;b>Beneficiary&lt;/b>: Jurevicius, BABYBOY&lt;/p>&lt;p>&lt;b>Dependent Number&lt;/b>: 1626016&lt;/p>&lt;p>&lt;b>Relationship&lt;/b>: Self&lt;/p>&lt;p>&lt;b>Coverage Start Date&lt;/b>: Sep  5, 2014  2:30 P.M. UTC&lt;/p>&lt;p>&lt;b>Coverage End Date&lt;/b>: Sep  5, 2015  2:30 P.M. UTC&lt;/p>&lt;p>&lt;b>Payor&lt;/b>: Cigna&lt;/p>&lt;p>&lt;b>Class&lt;/b>: plan: Value: 729825 Name: Cigna, group: Value: 456 Name: name&lt;/p>&lt;/div>"
             },
             "extension": [
               {
